@@ -1,0 +1,339 @@
+
+* { 
+	
+	margin: 0px;
+	padding: 8px;
+  font-weight: normal;
+	
+	
+}
+
+body {
+   
+    background: url(../img/textura.jpg);
+   
+
+}
+
+body a {
+
+  text-decoration: none;
+}
+
+.headerContainer{
+  display: flex;
+  justify-content: space-between;
+}
+ 
+
+.translate {
+  display: flex;
+  justify-items: center;
+  text-decoration: none !important;
+  list-style: none;
+  font-size: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+  
+.translate span {
+  font-size: 25px;
+}
+
+
+
+
+.translate :before {
+ 
+  
+  content: '';
+  top: 0;
+  left: 0;
+  color: #1D394E;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  
+  
+  
+}
+
+span {
+
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none !important;
+  font-size: 30px;
+  color: #1D394E;
+  margin: 0;
+  padding: 0;
+  
+}  
+
+
+
+.social {
+	list-style: none;
+  text-decoration: none;
+	display: flex;
+	margin-left: 25px;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  color: #1D394E;
+
+}
+
+
+
+
+
+
+ul li {
+	position: relative;
+	display : block;
+	font-size: 30px;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+  color: #1D394E;
+
+
+  
+}
+
+ul li :before {
+  position:absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  color: #1D394E;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+li a:hover {
+  
+    font-size: 40px;
+}  
+
+
+
+
+   
+  .logo {	
+   
+   width: 60%;
+   margin-left: 20%;
+   border-radius: 30px;
+   opacity: 0.7;
+ 
+   
+   
+
+}
+
+.centrar {
+
+  display: flex;
+  width: 100%;
+  align-content: center;   
+}
+
+.header {
+  background: #11293A;
+  opacity: 0.7;
+  border-top: 2px solid #A7CEE4 ;
+  border-bottom: 2px solid #A7CEE4 ;
+ 
+
+}
+.frente { 
+
+	  color: #1896ED;
+
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 30px;
+
+    text-align: center;
+
+   
+
+}
+
+.titulo {
+
+	  color: #9FD6FC;
+
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.titulo h1 {
+	font-size: 60px;
+}
+
+.marco1 {
+	background: rgba(29,57,78,0.4); 
+	border-radius: 5px;
+  padding-left: 60px;
+}
+
+.marco2 {
+	background: rgba(17,41,58,0.4);
+	border-radius: 5px;
+  padding-left: 60px;
+
+}
+
+
+div p {
+   
+
+   font-family: 'Playfair Display', serif;
+   font-size: 20px;
+   color: #97BFDC;
+   opacity: 1;
+ 
+
+
+}
+
+div p i {
+	font-size: 10px;
+}
+
+.caja {
+
+  background: #EAEAEA;
+  background-attachment: fixed;
+
+
+}
+
+.imageconteiner{
+
+	background: url('../img/brujula.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.6;
+  border-bottom: 2px solid #A7CEE4 ;
+  padding-left: 53px;
+
+   
+
+}
+
+
+
+form {
+
+   width: 450px;
+   background: #11293A;
+   padding: 10px 20px;
+   box-sizing: border-box;
+   margin-top: 30px;
+   border-radius: 7px;
+   opacity: 0.6;
+   font-family: 'Playfair Display', serif; 
+
+   
+
+   
+   
+} 
+
+form h2 {
+    color:#A7CEE4;
+    text-align: center;
+    margin: 20px;
+    font-size: 35px;
+    margin-bottom: 20PX;
+
+}
+
+input, textarea {
+
+     width: 80%;
+     margin-bottom: 20px;
+     padding: 20px;
+     box-sizing: border-box;
+     font-size: 20px;
+     border: none;
+     margin-left: 45px;
+     font-family: 'Playfair Display', serif; 
+     
+
+}
+
+
+
+textarea { 
+ 
+     min-height: 100px;
+     max-height: 200px;
+     min-width: 100px;
+
+
+ }
+
+ #boton {
+
+     background:#A7CEE4 ;
+     color:#005A8C;
+     padding: 20px;
+     border-radius: 17px;
+     font-size: 25px;
+
+
+
+ }
+
+
+
+ #boton:hover {
+   
+    cursor: pointer;
+    box-shadow: 7px;
+    
+
+ }
+  .fondo {
+   background: black;
+   position: absolute;
+   height: 20px;
+   width: 100%;
+   left: 0;
+   padding: 0 !important;
+   height: 100px;
+   
+ }
+
+ .contactContainer{
+   display: flex;
+ }
+
+  @media (max-width: 480px) {
+
+ 	form {
+ 		width: 100%;
+ 	}
+ }
+
+ .floateleft{
+
+ 	float: left;
+ }
+
+ .traje {
+
+
+  margin-top: 55px;
+  
+
+ }
+
